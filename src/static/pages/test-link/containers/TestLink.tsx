@@ -4,7 +4,7 @@ import Questions from "../components/Questions";
 import TimeLimit from "../components/TimeLimit";
 
 const data = {
-  timeLimit: 200,
+  timeLimit: 20,
   questions: [
     {
       id: 1,
