@@ -1,0 +1,39 @@
+.header-submit {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+  background-color: whitesmoke;
+
+  h3 {
+    margin-right: 20px;
+  }
+
+  button {
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+  }
+}
+
+.questions-list {
+  padding: 10px;
+
+  .question {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 15px;
+  }
+
+  .options-list {
+    display: flex;
+    flex-flow: column;
+
+    span {
+      display: inline-block;
+      input {
+        margin-right: 5px;
+      }
+    }
+  }
+}
