@@ -1,0 +1,18 @@
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .success-card {
+    height: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    h1 {
+      color: chartreuse;
+    }
+  }
+}
